@@ -5,18 +5,17 @@ import (
 	"testing"
 )
 
-expected_part_one := "Replace here" 
-expected_part_two := "Replace here" 
-
 func TestSolvePartOne(t *testing.T) {
-	result := Solve()
+	expected_part_one := "187194524"
+	result := SolvePartOne()
 	if result != expected_part_one {
 		t.Errorf("Expected %s, got %s", expected_part_one, result)
 	}
 }
 
 func TestSolvePartTwo(t *testing.T) {
-	result := Solve()
+	expected_part_two := "127092535"
+	result := SolvePartTwo()
 	if result != expected_part_two {
 		t.Errorf("Expected %s, got %s", expected_part_two, result)
 	}
